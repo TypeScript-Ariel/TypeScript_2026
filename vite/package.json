@@ -10,8 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.1.17",
+    "axios": "^1.13.2",
+    "axios-retry": "^4.5.0",
+    "radix-ui": "^1.4.3",
     "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react-dom": "^19.2.0",
+    "react-router": "^7.10.1",
+    "tailwindcss": "^4.1.17",
+    "zod": "^4.1.13"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
