@@ -7,7 +7,7 @@ import DashboardLayout from "./layouts/DashboardLayout";
 export const router = createBrowserRouter([
   {
     path: "/",
-    element: <Navigate to="/dashboard" replace />,
+    element: <Navigate to="/auth/login" replace />,
   },
   {
     path: "auth",

@@ -1,0 +1,20 @@
+{
+  "Print to console": {
+    "prefix": "logp",
+    "body": ["console.log('$1');", "$2"],
+    "description": "Log output to console"
+  },
+  "Create default React component (Tabs)": {
+    "prefix": "rcomp",
+    "body": [
+      "import React from 'react';",
+      "",
+      "const ${TM_FILENAME_BASE} = () => {",
+      "\treturn <div>${TM_FILENAME_BASE} component</div>;",
+      "};",
+      "",
+      "export default ${TM_FILENAME_BASE};"
+    ],
+    "description": "Create a default exported React component using tabs"
+  }
+}
