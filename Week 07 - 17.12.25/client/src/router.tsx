@@ -3,7 +3,7 @@ import Home from "./pages/dashboard/Home";
 import AuthLayout from "./layouts/AuthLayout";
 import Login from "./pages/auth/Login";
 import DashboardLayout from "./layouts/DashboardLayout";
-import Test from "./pages/auth/Test";
+import Register from "./pages/auth/Register";
 
 export const router = createBrowserRouter([
   {
@@ -19,12 +19,8 @@ export const router = createBrowserRouter([
         element: <Login />,
       },
       {
-        path: "registration",
-        element: <Home />,
-      },
-      {
-        path: "test",
-        element: <Test />,
+        path: "register",
+        element: <Register />,
       },
     ],
   },
